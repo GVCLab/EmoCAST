@@ -9,7 +9,7 @@ rates flexible and customizable emotive text prompts, as shown in the example.
 
 ## 🔧️ Framework
 
-![framework](assets/method.pdf)
+![method](assets/method.pdf)
 
 ## ⚙️ Usage
 ### 🛠️ Installation
