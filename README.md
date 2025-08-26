@@ -6,6 +6,11 @@
 We introduce **EmoCAST**, a novel diffusion-based emotional talking head system for in-the-wild images that incorpo-
 rates flexible and customizable emotive text prompts, as shown in the example.
 
+
+## 🔧️ Framework
+
+![framework](assets/method.pdf)
+
 ## ⚙️ Usage
 ### 🛠️ Installation
 ```bash
