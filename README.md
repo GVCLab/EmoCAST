@@ -13,10 +13,19 @@ rates flexible and customizable emotive text prompts, as shown in the example.
 
 ## ⚙️ Usage
 ### 🛠️ Installation
-```bash
-git clone https://github.com/
-pip install -r requirements.txt 
-```
+
+1. Creat conda environment
+   ```bash
+   conda create -n emocast python=3.10
+   conda activate emocast
+   ```
+
+2. Install packages with pip
+
+   ```bash
+   pip install -r requirements.txt
+   pip install .
+   ```
 
 ### 🎮 Inference
 
@@ -72,15 +81,21 @@ pip install -r requirements.txt
             |-- vocab.json
     ```
 
-3. Prepare Inference Data
-```bash
+2. Prepare Inference Data
 
-```
+   Prepare the driving audio and reference image as input, and change the `--driving_audio` and `--source_image` to the right path.
+
+   For the driving audio, it should be in `.wav` format.
+
+   For the reference image, it should be cropped into a square with the face as the primary focus, facing forward. 
+   
+   Here, we provide [some samples](examples/) for your reference.
+
 
 3. Run Inference
-```bash
-
-```
+   ```bash
+   
+   ```
 
 ## 🛎 Citation
 If you find our work helpful for your research, please cite:
