@@ -31,6 +31,9 @@ We introduce **EmoCAST**, a novel diffusion-based emotional talking head system 
 
 ### 🎮 Inference
 
+
+   
+
 1. Download Pretrained Models
    
    Download these models below into the `./pretrained_model/` folder.
@@ -105,6 +108,8 @@ We introduce **EmoCAST**, a novel diffusion-based emotional talking head system 
 
 
 3. Run Inference
+
+   We test the inference on a 24G RTX 4090.
 
    To run the inference script, change the `--driving_audio` and `--source_image` to the correct path and provide `--prompt_emo`.
 
