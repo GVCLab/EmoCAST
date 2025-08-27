@@ -7,6 +7,7 @@
 
 We introduce **EmoCAST**, a novel diffusion-based emotional talking head system for in-the-wild images that incorporates flexible and customizable emotive text prompts, as shown in the example.
 
+## 📸 Demo
 
 ## 🔧️ Framework
 
@@ -43,7 +44,7 @@ We introduce **EmoCAST**, a novel diffusion-based emotional talking head system 
     |sd-vae-ft-mse | [https://huggingface.co/stabilityai/sd-vae-ft-mse](https://huggingface.co/stabilityai/sd-vae-ft-mse)|
     |StableDiffusion V1.5|[https://huggingface.co/stable-diffusion-v1-5/stable-diffusion-v1-5](https://huggingface.co/stable-diffusion-v1-5/stable-diffusion-v1-5)|
     |wav2vec | [https://huggingface.co/facebook/wav2vec2-base-960h](https://huggingface.co/facebook/wav2vec2-base-960h)|
-    |EmoCast||
+    |EmoCAST||
 
     These pretrained models should be organized as follows:
 
@@ -84,11 +85,19 @@ We introduce **EmoCAST**, a novel diffusion-based emotional talking head system 
 
 2. Prepare Inference Data
 
-   Prepare the driving audio and reference image as input, and change the `--driving_audio` and `--source_image` to the right path.
+   Prepare the *driving audio*, *reference image*, and *emotive text prompt* as input, and change the `--driving_audio` and `--source_image` to the correct path.
 
-   For the driving audio, it should be in `.wav` format.
+   - For the *driving audio*, it should be in `.wav` format.
 
-   For the reference image, it should be cropped into a square with the face as the primary focus, facing forward. 
+   - For the *reference image*, it should be cropped into a square with the face as the primary focus, facing forward.
+  
+   - For the *emotive text prompt*, it should describe a specific talking scene, such as:
+     
+     `The portrait is experiencing chronic illness or pain.`
+     
+     `A person is talking with happy emotion.`
+
+     `The portrait is watching a horror movie with jump scares.`
    
    Here, we provide [some samples](examples/) for your reference.
 
