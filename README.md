@@ -73,19 +73,21 @@ We introduce **EmoCAST**, a novel diffusion-based emotional talking head system 
     |       |-- config.json
     |       |-- diffusion_pytorch_model.safetensors
     |-- wav2vec/
-        |-- wav2vec2-base-960h/
-            |-- config.json
-            |-- feature_extractor_config.json
-            |-- model.safetensors
-            |-- preprocessor_config.json
-            |-- special_tokens_map.json
-            |-- tokenizer_config.json
-            |-- vocab.json
+    |   |-- wav2vec2-base-960h/
+    |       |-- config.json
+    |       |-- feature_extractor_config.json
+    |       |-- model.safetensors
+    |       |-- preprocessor_config.json
+    |       |-- special_tokens_map.json
+    |       |-- tokenizer_config.json
+    |       |-- vocab.json
+    |-- emocast/
+    |   |-- net.pth
     ```
 
 2. Prepare Inference Data
 
-   Prepare the *driving audio*, *reference image*, and *emotive text prompt* as input, and change the `--driving_audio` and `--source_image` to the correct path.
+   Prepare the *driving audio*, *reference image*, and *emotive text prompt* as input.
 
    - For the *driving audio*, it should be in `.wav` format.
 
@@ -103,9 +105,16 @@ We introduce **EmoCAST**, a novel diffusion-based emotional talking head system 
 
 
 3. Run Inference
-   ```bash
+
+   To run the inference script, change the `--driving_audio` and `--source_image` to the correct path and provide `--prompt_emo`.
+
+   The generated videos will be saved in `--outputs`.
    
+   ```bash
+   bash inference.sh
    ```
+
+   For more options, you can refer `scripts/inference.py`
 
 ## 🛎 Citation
 If you find our work helpful for your research, please cite:
@@ -114,3 +123,6 @@ If you find our work helpful for your research, please cite:
 ```
 
 ## 💗 Acknowledgements
+
+Thanks to the [hallo](https://github.com/fudan-generative-vision/hallo), for their open research and exploration.
+
