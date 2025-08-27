@@ -1,5 +1,9 @@
 ## 👿 EmoCAST: Emotional Talking Portrait via Emotive Text Description
 
+#### Yiguo Jiang<sup>1</sup> · <a href='https://vinthony.github.io/'>Xiaodong Cun📪<sup>2</sup> </a> · <a href='https://yzhang2016.github.io/'>Yong Zhang<sup>3</sup></a> · Yudian Zheng<sup>1</sup> · <a href='https://scholar.google.com/citations?user=PdKElfwAAAAJ&hl=zh-CN'>Fan Tang <sup>4</sup></a> · Chi-Man Pun📪<sup>1</sup>
+<sup>1</sup>University of Macau &nbsp;&nbsp; <sup>2</sup>GVC Lab, Great Bay University &nbsp;&nbsp; <sup>3</sup>Meituan &nbsp;&nbsp; <sup>4</sup>ICT-CAS
+
+
 [![Project Website](https://img.shields.io/badge/Project-Website-Green)](https:)
 [![arXiv](https://img.shields.io/badge/ArXiv--red)](https://arxiv.org/abs/)
 
