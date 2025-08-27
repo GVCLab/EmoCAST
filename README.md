@@ -91,7 +91,7 @@ We introduce **EmoCAST**, a novel diffusion-based emotional talking head system 
 
    - For the *reference image*, it should be cropped into a square with the face as the primary focus, facing forward.
   
-   - For the *emotive text prompt*, it should describe a specific talking scene, such as:
+   - For the *emotive text prompt*, it describe a specific talking scene, such as:
      
      `The portrait is experiencing chronic illness or pain.`
      
