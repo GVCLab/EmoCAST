@@ -1,6 +1,6 @@
 ## 👿 EmoCAST: Emotional Talking Portrait via Emotive Text Description
 
-#### Yiguo Jiang<sup>1</sup> · <a href='https://vinthony.github.io/'>Xiaodong Cun📪<sup>2</sup> </a> · <a href='https://yzhang2016.github.io/'>Yong Zhang<sup>3</sup></a> · Yudian Zheng<sup>1</sup> · <a href='https://scholar.google.com/citations?user=PdKElfwAAAAJ&hl=zh-CN'>Fan Tang <sup>4</sup></a> · <a href='https://cmpun.github.io/'>Chi-Man Pun</a>📪<sup>1</sup>
+#### Yiguo Jiang<sup>1</sup> · <a href='https://vinthony.github.io/'>Xiaodong Cun📪<sup>2</sup> </a> · <a href='https://yzhang2016.github.io/'>Yong Zhang<sup>3</sup></a> · Yudian Zheng<sup>1</sup> · <a href='https://scholar.google.com/citations?user=PdKElfwAAAAJ&hl=zh-CN'>Fan Tang<sup>4</sup></a> · <a href='https://cmpun.github.io/'>Chi-Man Pun</a>📪<sup>1</sup>
 <sup>1</sup>University of Macau &nbsp;&nbsp; <sup>2</sup> <a href='https://gvclab.github.io/'>GVC Lab, Great Bay University</a> &nbsp;&nbsp; <sup>3</sup>Meituan &nbsp;&nbsp; <sup>4</sup>ICT-CAS
 
 
@@ -12,7 +12,6 @@
 We introduce **EmoCAST**, a novel diffusion-based emotional talking head system for in-the-wild images from a single image, audio, and the emotional text description.
 
 ## 📸 Video Demo
-
 
 ![video](assets/demo23.mp4)
 
