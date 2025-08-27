@@ -1,0 +1,81 @@
+data:
+  train_bs: 2
+  train_width: 512
+  train_height: 512
+  meta_paths:
+    - "./data/mead_vox2_1000_stage1.json"
+  # meta_paths:
+  #   - "./data/w009_crop_stage1.json"
+
+  # meta_paths:
+  #   - "./data/mead_emo_stage1.json"
+  #   - "./data/vox2_1000_emo_stage1.json"
+  # Margin of frame indexes between ref and tgt images
+  sample_margin: 30
+
+solver:
+  gradient_accumulation_steps: 1
+  mixed_precision: "no"
+  enable_xformers_memory_efficient_attention: True
+  gradient_checkpointing: False
+  max_train_steps: 30000
+  max_grad_norm: 1.0
+  # lr
+  learning_rate: 1.0e-5
+  scale_lr: False
+  lr_warmup_steps: 1
+  lr_scheduler: "constant"
+
+  # optimizer
+  use_8bit_adam: False
+  adam_beta1: 0.9
+  adam_beta2: 0.999
+  adam_weight_decay: 1.0e-2
+  adam_epsilon: 1.0e-8
+
+val:
+  validation_steps: 500
+
+noise_scheduler_kwargs:
+  num_train_timesteps: 1000
+  beta_start: 0.00085
+  beta_end: 0.012
+  beta_schedule: "scaled_linear"
+  steps_offset: 1
+  clip_sample: false
+
+base_model_path: "./pretrained_models/stable-diffusion-v1-5/"
+vae_model_path: "./pretrained_models/sd-vae-ft-mse"
+face_analysis_model_path: "./pretrained_models/face_analysis"
+
+weight_dtype: "fp16" # [fp16, fp32]
+uncond_ratio: 0.1
+noise_offset: 0.05
+snr_gamma: 5.0
+enable_zero_snr: True
+face_locator_pretrained: False
+
+seed: 42
+resume_from_checkpoint: "latest"
+checkpointing_steps: 500
+exp_name: "stage1"
+output_dir: "./exp_output_test"
+
+ref_image_paths:
+  - "examples/reference_images/09.png"
+  - "examples/reference_images/12.png"
+  - "examples/reference_images/30.jpg"
+  - "examples/reference_images/37.png"
+
+# emo_label:
+
+mask_image_paths:
+  - "examples/masks/09_face_mask.png"
+  - "examples/masks/12_face_mask.png"
+  - "examples/masks/30_face_mask.png"
+  - "examples/masks/37_face_mask.png"
+
+# emo_refs:
+#   - "1"
+#   - "2"
+
