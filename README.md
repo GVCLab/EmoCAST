@@ -3,6 +3,8 @@
 [![Project Website](https://img.shields.io/badge/Project-Website-Green)](https:)
 [![arXiv](https://img.shields.io/badge/ArXiv--red)](https://arxiv.org/abs/)
 
+![teaser](assets/teaser.png)
+
 We introduce **EmoCAST**, a novel diffusion-based emotional talking head system for in-the-wild images that incorporates flexible and customizable emotive text prompts, as shown in the example.
 
 
