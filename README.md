@@ -13,6 +13,9 @@ We introduce **EmoCAST**, a novel diffusion-based emotional talking head system 
 
 ## 📸 Video Demo
 
+
+![video](assets/demo23.mp4)
+
 ## 🔧️ Framework
 
 ![method](assets/method.png)
