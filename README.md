@@ -3,8 +3,7 @@
 [![Project Website](https://img.shields.io/badge/Project-Website-Green)](https:)
 [![arXiv](https://img.shields.io/badge/ArXiv--red)](https://arxiv.org/abs/)
 
-We introduce **EmoCAST**, a novel diffusion-based emotional talking head system for in-the-wild images that incorpo-
-rates flexible and customizable emotive text prompts, as shown in the example.
+We introduce **EmoCAST**, a novel diffusion-based emotional talking head system for in-the-wild images that incorporates flexible and customizable emotive text prompts, as shown in the example.
 
 
 ## 🔧️ Framework
@@ -14,7 +13,7 @@ rates flexible and customizable emotive text prompts, as shown in the example.
 ## ⚙️ Usage
 ### 🛠️ Installation
 
-1. Creat conda environment
+1. Create conda environment
    ```bash
    conda create -n emocast python=3.10
    conda activate emocast
