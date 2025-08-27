@@ -57,7 +57,7 @@ We introduce **EmoCAST**, a novel diffusion-based emotional talking head system 
     |   |-- Kim_Vocal_2.onnx
     |-- face_analysis/
     |   |-- models/
-    |       |-- face_landmarker_v2_with_blendshapes.task  # face landmarker model from mediapipe
+    |       |-- face_landmarker_v2_with_blendshapes.task  
     |       |-- 1k3d68.onnx
     |       |-- 2d106det.onnx
     |       |-- genderage.onnx
