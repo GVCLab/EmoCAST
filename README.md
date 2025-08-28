@@ -53,7 +53,7 @@ We introduce **EmoCAST**, a novel diffusion-based emotional talking head system 
     |sd-vae-ft-mse | [https://huggingface.co/stabilityai/sd-vae-ft-mse](https://huggingface.co/stabilityai/sd-vae-ft-mse)|
     |StableDiffusion V1.5|[https://huggingface.co/stable-diffusion-v1-5/stable-diffusion-v1-5](https://huggingface.co/stable-diffusion-v1-5/stable-diffusion-v1-5)|
     |wav2vec | [https://huggingface.co/facebook/wav2vec2-base-960h](https://huggingface.co/facebook/wav2vec2-base-960h)|
-    |EmoCAST||
+    |EmoCAST| [https://huggingface.co/Jmaomao/EmoCAST](https://huggingface.co/Jmaomao/EmoCAST)|
 
     These pretrained models should be organized as follows:
 
