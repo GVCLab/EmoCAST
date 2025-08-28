@@ -18,35 +18,23 @@ We introduce **EmoCAST**, a novel diffusion-based emotional talking head system 
 
 - Different Emotional Results Driven by Same Audio
 
-https://github.com/user-attachments/assets/88d25005-42de-4fea-8e99-8d94a6557b0a
+https://github.com/user-attachments/assets/77083068-fbdb-4ae5-991c-598eec10818b
 
 - More Diverse Emotional Results
 
-
-
-https://github.com/user-attachments/assets/2486dfbd-221e-4c2f-be74-a8fe387edb50
-
-
+https://github.com/user-attachments/assets/1d83d1c7-9679-4b00-91a2-a5da648bb79e
 
 - Flexible Text Prompt Control
 
-
-
-https://github.com/user-attachments/assets/f3bdefc6-046a-4afa-b185-e902997c98f7
-
-
+https://github.com/user-attachments/assets/e3712a78-17fc-4a87-b4e2-4b223bf12dd8
 
 2. Comparison with State-of-the-art
 
-https://github.com/user-attachments/assets/7a79fbf3-1612-4d9c-98d2-1f00051c0811
-
-
+https://github.com/user-attachments/assets/031bc68d-b6c6-450b-82e8-73e0b22516ed
 
 3. Ablations
    
-https://github.com/user-attachments/assets/3140eb2c-75ec-47ef-af78-8f37b07ffa45
-
-
+https://github.com/user-attachments/assets/c15712f2-05ad-425a-b899-79e8199de977
 
 
 ## 🔧️ Framework
