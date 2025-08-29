@@ -112,7 +112,7 @@ We introduce **EmoCAST**, a novel diffusion-based emotional talking head system 
 
      `The portrait is watching a horror movie with jump scares.`
    
-   Here, we provide [some samples](examples/) for your reference.
+
 
 
 3. Run Inference
