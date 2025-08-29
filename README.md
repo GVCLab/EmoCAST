@@ -4,7 +4,7 @@
 <sup>1</sup>University of Macau &nbsp;&nbsp; <sup>2</sup> <a href='https://gvclab.github.io/'>GVC Lab, Great Bay University</a> &nbsp;&nbsp; <sup>3</sup>Meituan &nbsp;&nbsp; <sup>4</sup>ICT-CAS
 
 
-[![Project Website](https://img.shields.io/badge/Project-Website-Green)](https:)
+
 [![arXiv](https://img.shields.io/badge/ArXiv--red)](https://arxiv.org/abs/)
 
 ![teaser](assets/teaser.png)
@@ -15,27 +15,6 @@ We introduce **EmoCAST**, a novel diffusion-based emotional talking head system 
 
 [![EmoCAST: Emotional Talking Portrait via Emotive Text Description - YouTube](assets/title.png)](https://www.youtube.com/watch?v=sVxm7Lf6bY0 "EmoCAST: Emotional Talking Portrait via Emotive Text Description - YouTube")
 
-1. Our Results
-
-- Different Emotional Results Driven by Same Audio
-
-https://github.com/user-attachments/assets/77083068-fbdb-4ae5-991c-598eec10818b
-
-- More Diverse Emotional Results
-
-https://github.com/user-attachments/assets/1d83d1c7-9679-4b00-91a2-a5da648bb79e
-
-- Flexible Text Prompt Control
-
-https://github.com/user-attachments/assets/e3712a78-17fc-4a87-b4e2-4b223bf12dd8
-
-2. Comparison with State-of-the-art
-
-https://github.com/user-attachments/assets/031bc68d-b6c6-450b-82e8-73e0b22516ed
-
-3. Ablations
-   
-https://github.com/user-attachments/assets/c15712f2-05ad-425a-b899-79e8199de977
 
 
 ## 🔧️ Framework
