@@ -5,7 +5,7 @@
 
 
 
-[![arXiv](https://img.shields.io/badge/ArXiv--red)](https://arxiv.org/abs/)
+[![arXiv](https://img.shields.io/badge/ArXiv--red)](https://arxiv.org/abs/2508.20615)
 
 ![teaser](assets/teaser.png)
 
