@@ -132,7 +132,15 @@ We introduce **EmoCAST**, a novel diffusion-based emotional talking head system 
 ## 🛎 Citation
 If you find our work helpful for your research, please cite:
 ```
-
+@misc{jiang2025emocastemotionaltalkingportrait,
+      title={EmoCAST: Emotional Talking Portrait via Emotive Text Description}, 
+      author={Yiguo Jiang and Xiaodong Cun and Yong Zhang and Yudian Zheng and Fan Tang and Chi-Man Pun},
+      year={2025},
+      eprint={2508.20615},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2508.20615}, 
+}
 ```
 
 ## 💗 Acknowledgements
