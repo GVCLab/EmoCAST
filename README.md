@@ -7,9 +7,9 @@
 
 [![arXiv](https://img.shields.io/badge/ArXiv-2508.20615-red)](https://arxiv.org/abs/2508.20615)
 
-![teaser](assets/teaser.png)
+![teaser](assets/teaser_new.png)
 
-We introduce **EmoCAST**, a novel diffusion-based emotional talking head system for in-the-wild images from a single image, audio, and the emotional text description.
+We introduce **EmoCAST**, a novel diffusion-based emotional talking head system for in-the-wild images that incorporates flexible and customizable emotive text prompts.
 
 ## 📸 Video Demo
 
@@ -19,7 +19,7 @@ We introduce **EmoCAST**, a novel diffusion-based emotional talking head system 
 
 ## 🔧️ Framework
 
-![method](assets/method.png)
+![method](assets/method_new.png)
 
 ## ⚙️ Usage
 ### 🛠️ Installation
@@ -132,14 +132,11 @@ We introduce **EmoCAST**, a novel diffusion-based emotional talking head system 
 ## 🛎 Citation
 If you find our work helpful for your research, please cite:
 ```
-@misc{jiang2025emocastemotionaltalkingportrait,
-      title={EmoCAST: Emotional Talking Portrait via Emotive Text Description}, 
-      author={Yiguo Jiang and Xiaodong Cun and Yong Zhang and Yudian Zheng and Fan Tang and Chi-Man Pun},
-      year={2025},
-      eprint={2508.20615},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2508.20615}, 
+@article{jiang2025emocast,
+  title={EmoCAST: Emotional Talking Portrait via Emotive Text Description},
+  author={Jiang, Yiguo and Cun, Xiaodong and Zhang, Yong and Zheng, Yudian and Tang, Fan and Pun, Chi-Man},
+  journal={arXiv preprint arXiv:2508.20615},
+  year={2025}
 }
 ```
 
