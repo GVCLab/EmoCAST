@@ -13,7 +13,7 @@ We introduce **EmoCAST**, a novel diffusion-based emotional talking head system 
 
 ## 📸 Video Demo
 
-[![EmoCAST: Emotional Talking Portrait via Emotive Text Description - YouTube](assets/video_title.png)](https://www.youtube.com/watch?v=sVxm7Lf6bY0 "EmoCAST: Emotional Talking Portrait via Emotive Text Description - YouTube")
+[![EmoCAST: Emotional Talking Portrait via Emotive Text Description - YouTube](assets/video_title.png)](https://www.youtube.com/watch?v=AD2txeElkMM "EmoCAST: Emotional Talking Portrait via Emotive Text Description - YouTube")
 
 
 
